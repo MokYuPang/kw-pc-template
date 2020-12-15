@@ -1,0 +1,15 @@
+@import '../../common/css/common.scss';
+
+.container{
+  text-align: center;
+  .bg-img{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    border: 1px solid #eee;
+    background: url('/image/code.png') no-repeat 100%/100%;
+  }
+  h4{
+    color: green;
+  }
+}

@@ -1,0 +1,1 @@
+exports.baseUrl = window.location.hostname === 'localhost' ? 'http://user.test.cn.keywa.cc' : ''

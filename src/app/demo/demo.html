@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  @@include("base.html", {"title": "demo"})
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container">
+    <h3>demo</h3>
+    <a href="http://fex.baidu.com/ueditor/">UEditor富文本官网文档</a>
+    <div id="editor"></div>
+  </div>
+</body>
+<script src="js/demo.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/ueditor/ueditor.all.js"> </script>
+<script type="text/javascript" charset="utf-8" src="lib/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript">
+  //实例化编辑器
+  UE.getEditor('editor')
+</script>
+
+</html>

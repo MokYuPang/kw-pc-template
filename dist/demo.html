@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<!-- 忽略某些安卓平台对某些邮箱的识别 -->
+<meta name="format-detection" content="email=no" />
+<!-- 当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对iOS的safari -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- 将网站添加到主屏幕快速启动方式，仅针对ios的safari顶端状态条的样式，可选default、black、black-translucent -->
+<meta name="author" content="keywa" />
+<meta name="description" content="奇化网 pc端 多页面 脚手架"/>
+<meta name="keywords" content="奇化网"/>
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>demo</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container">
+    <h3>demo</h3>
+    <a href="http://fex.baidu.com/ueditor/">UEditor富文本官网文档</a>
+    <div id="editor"></div>
+  </div>
+</body>
+<script src="js/demo.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/ueditor/ueditor.all.js"> </script>
+<script type="text/javascript" charset="utf-8" src="lib/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript">
+  //实例化编辑器
+  UE.getEditor('editor')
+</script>
+
+</html>
